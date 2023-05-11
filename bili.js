@@ -173,8 +173,6 @@ if (magicJS.read(blackKey)) {
           obj["data"]["vip"]["status"] = 1;
           obj["data"]["vip"]["pay_type"] = 1;
           obj["data"]["vip"]["vip_pay_type"] = 1;
-          obj["data"]["tv"]["vip_status"] = 1;
-          obj["data"]["tv"]["status"] = 1;
           obj["data"]["vip"]["due_date"] = 1687569024000;
           });
           body = JSON.stringify(obj);
@@ -215,8 +213,6 @@ if (magicJS.read(blackKey)) {
           obj["data"]["vip"]["status"] = 1;
           obj["data"]["vip"]["pay_type"] = 1;
           obj["data"]["vip"]["vip_pay_type"] = 1;
-          obj["data"]["tv"]["vip_status"] = 1;
-          obj["data"]["tv"]["status"] = 1;
           obj["data"]["vip"]["due_date"] = 1687569024000;
           body = JSON.stringify(obj);
         } catch (err) {
