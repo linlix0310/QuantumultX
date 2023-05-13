@@ -19,7 +19,6 @@ var chxm1023 = JSON.parse(body);
           "yearExpire" : 1,
           "rightGroup" : -1,
           "paidSign" : 1,
-          "surplus" : "16",
           "type" : "1",
           "level" : "1",
           "payType" : "0",
@@ -97,7 +96,6 @@ var chxm1023 = JSON.parse(body);
             "t" : 1688054399000,
             "date_format" : "2023-06-29"
           },
-          "surplus" : "16",
           "type" : "1",
           "autoRenew" : "0",
           "name" : "用户6c682aa43e300"
