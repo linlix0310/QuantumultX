@@ -11,7 +11,6 @@ chxm1023.data = {
         "yearExpire" : 1,
         "rightGroup" : -1,
         "paidSign" : 1,
-        "surplus" : "18",
         "type" : "1",
         "level" : "1",
         "payType" : "0",
