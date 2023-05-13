@@ -1,10 +1,8 @@
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-chxm1023 = {
-  "data" : {
-    "vip_list" : [
-      {
+chxm1023.data = {	
+	"vip_list" : [{
         "vipTypeGroup" : "vip_info",
         "longestDeadline" : {
           "t" : 1688054399000
@@ -23,10 +21,7 @@ chxm1023 = {
         "deadline" : {
           "t" : 1688054399000
         }
-      }
-    ],
-  },
-   "code" : "A00000"
-};
+      }],
+	};
  
  $done({body : JSON.stringify(chxm1023)});
