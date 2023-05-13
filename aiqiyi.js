@@ -26,6 +26,7 @@ chxm1023 = {
       }
     ],
   },
+   "code" : "A00000"
 };
  
  $done({body : JSON.stringify(chxm1023)});
