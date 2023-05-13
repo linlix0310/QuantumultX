@@ -2,8 +2,6 @@ var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
 chxm1023 = {
-  {
-  "msg" : "SUCCESS",
   "data" : {
     "vip_list" : [
       {
@@ -28,7 +26,6 @@ chxm1023 = {
       }
     ],
   },
-}
 };
  
  $done({body : JSON.stringify(chxm1023)});
