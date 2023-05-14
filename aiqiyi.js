@@ -21,6 +21,6 @@ chxm1023.data = {
           "t" : 1688054399000
         }
       }],
-	};
+};
  
  $done({body : JSON.stringify(chxm1023)});
