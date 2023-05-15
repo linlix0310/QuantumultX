@@ -1,19 +1,19 @@
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-console.log('aiqiyi 1685375999000 in1111');
+console.log('aiqiyi 1688054399000 in1111');
 
 chxm1023.data = {	
 	"vip_list" : [{
         "vipTypeGroup" : "vip_info",
         "longestDeadline" : {
-          "t" : 1685375999000
+          "t" : 1688054399000
         },
         "autoRenew" : "0",
         "yearExpire" : 1,
         "rightGroup" : -1,
         "paidSign" : 1,
-	"surplus" : "14",	
+	"1688054399000
         "type" : "1",
         "level" : "1",
         "payType" : "0",
@@ -21,7 +21,7 @@ chxm1023.data = {
         "vipType" : "1",
         "status" : "1",
         "deadline" : {
-          "t" : 1685375999000
+          "t" : 1688054399000
         }
       }],
 	};
