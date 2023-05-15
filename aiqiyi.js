@@ -1,7 +1,7 @@
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-console.log('aiqiyi in');
+console.log('aiqiyi 1688054399000 in');
 
 chxm1023.data = {	
 	"vip_list" : [{
@@ -26,5 +26,5 @@ chxm1023.data = {
 	};
 
 
-console.log('aiqiyi out');
+console.log('aiqiyi 1688054399000 out');
 $done({body : JSON.stringify(chxm1023)});
