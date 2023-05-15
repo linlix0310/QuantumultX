@@ -1,7 +1,7 @@
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-console.log('aiqiyi 1685375999000 in');
+console.log('aiqiyi 1685375999000 in1111');
 
 chxm1023.data = {	
 	"vip_list" : [{
@@ -13,7 +13,7 @@ chxm1023.data = {
         "yearExpire" : 1,
         "rightGroup" : -1,
         "paidSign" : 1,
-	"surplus" : "15",	
+	"surplus" : "14",	
         "type" : "1",
         "level" : "1",
         "payType" : "0",
@@ -27,5 +27,5 @@ chxm1023.data = {
 	};
 
 
-console.log('aiqiyi 1685375999000 out');
+console.log('aiqiyi 1685375999000 out1111');
 $done({body : JSON.stringify(chxm1023)});
