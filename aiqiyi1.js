@@ -3,8 +3,7 @@ var chxm1023 = JSON.parse(body);
 
 console.log('aiqiyi111111 in');
 
- chxm1023.content = {	
-	"vip_info" : {
+ chxm1023.content.vip_info = {	
       "data" : {
         "qiyi_vip_info" : {
           "vipTypeGroup" : "qiyi_vip_info",
@@ -27,10 +26,9 @@ console.log('aiqiyi111111 in');
             "date" : "2023年06月29日"
           }
         }
-      },
 	};
 	
-	"passport" : {
+	chxm1023.content.passport = {
       "data" : {
         "verify_status" : 1,
         "qiyi_vip_info" : {
@@ -46,9 +44,8 @@ console.log('aiqiyi111111 in');
           "type" : "1",
           "autoRenew" : "0",
         }
-      },
-    },
-  }
+      }
+  };
  
  console.log('aiqiyi111111 out');
  $done({body : JSON.stringify(chxm1023)});
